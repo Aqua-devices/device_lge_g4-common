@@ -127,6 +127,9 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+ 
 # Display
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_USES_ION := true
