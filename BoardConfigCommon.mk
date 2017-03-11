@@ -188,3 +188,6 @@ BOARD_USES_CYANOGEN_HARDWARE := true
 
 # inherit from the proprietary version
 -include vendor/lge/g4-common/BoardConfigVendor.mk
+
+#Include Magisk root
+DEFAULT_ROOT_METHOD := Magisk
