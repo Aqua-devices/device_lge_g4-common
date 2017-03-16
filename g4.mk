@@ -149,6 +149,10 @@ PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep
 
+# HTCDoze
+PRODUCT_PACKAGES += \
+	 LGEDoze
+
 # IZat configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/flp.conf:system/etc/flp.conf \
