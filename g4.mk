@@ -206,11 +206,8 @@ PRODUCT_PACKAGES += \
     gralloc.msm8992 \
     hwcomposer.msm8992 \
     memtrack.msm8992 \
-    liboverlay
-
-# QuickCircle Case App
-PRODUCT_PACKAGES += \
-    FlipFlap
+    liboverlay \
+    LGDoze
 
 # GPS
 PRODUCT_PACKAGES += \
