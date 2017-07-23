@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aquarios.doze.htc;
+package com.aquarios.doze.lg;
 
 import android.app.ActionBar;
 import android.os.Bundle;

@@ -285,6 +285,11 @@
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
+    <!-- Proximity check on screen on -->
+    <bool name="config_proximityCheckOnWake">true</bool>
+
+    <!-- Proximity check timeout -->
+    <integer name="config_proximityCheckTimeout">100</integer>
 
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_volte_available">true</bool>
