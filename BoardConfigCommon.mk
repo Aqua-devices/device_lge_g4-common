@@ -22,6 +22,13 @@ TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 include $(COMMON_PATH)/PlatformConfig.mk
 include $(COMMON_PATH)/board/*.mk
 
+# display
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8994
+
+# Audio/media
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8994
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8994
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/manifest.xml
 
